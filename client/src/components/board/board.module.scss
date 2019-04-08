@@ -1,0 +1,11 @@
+@import "../../styles/constants";
+
+.board{
+    background-color: white;
+    width: $boardSize;
+    height: $boardSize;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+

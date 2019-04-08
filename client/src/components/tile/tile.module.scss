@@ -1,0 +1,32 @@
+@import "../../styles/constants";
+
+.tile{
+    width: calc(#{$boardSize}/8);
+    height:calc(#{$boardSize}/8);
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    color: white;
+}
+
+.rowLabel1{
+    left: -15px;
+    bottom: 45%;
+}
+
+.rowLabel8{
+    right: -15px;
+    bottom: 45%;
+}
+
+.fileLabelA{
+    bottom: -25px;
+    left: 45%;
+}
+
+.fileLabelH{
+    top: -25px;
+    left: 45%;
+}
